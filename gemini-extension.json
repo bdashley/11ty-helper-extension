@@ -1,0 +1,11 @@
+{
+  "name": "11ty-nunjucks-expert",
+  "version": "1.0.0",
+  "description": "Expert context for Eleventy sites and Nunjucks templating. Now with automatic background watching via hooks.",
+  "hooks": {
+    "on-startup": {
+      "handler": "node start-watcher.js",
+      "description": "Starts a background process to watch for file changes and provide live 11ty context to Gemini."
+    }
+  }
+}
