@@ -1,10 +1,11 @@
 {
-  "name": "11ty-nunjucks-expert",
+  "name": "11ty-helper-extension",
   "version": "1.0.0",
   "description": "An extension for Gemini CLI that provides expert context for Eleventy sites using Nunjucks.",
   "main": "dist/audit-11ty.js",
   "scripts": {
     "build": "npx tsc",
+    "prepare": "npm run build",
     "start": "node dist/audit-11ty.js"
   },
   "license": "MIT",
